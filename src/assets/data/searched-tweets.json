@@ -1,0 +1,500 @@
+[
+    {
+        "id": 84,
+        "query": "trump",
+        "tweets": [
+            {
+                "id": 647,
+                "text": "Watch: Donald Trump tours burned-out town of Paradise, calls it “Pleasure, what a name” https://t.co/xpD3NDMoPh",
+                "user_location": "",
+                "created_at": "Mon Nov 19 23:19:00 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 648,
+                "text": "RT @Airbornex82nd: 'Peas' and 'Carrots' to be pardoned by Trump | TheHill\nAmerican Tradition ⁦@POTUS⁩  https://t.co/6iLVmsVq94",
+                "user_location": "tennessee",
+                "created_at": "Mon Nov 19 23:19:00 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 649,
+                "text": "@davidfrum U must be mistaken. I am sure you were told that if u elected Trump as president (small p), the entire world would laugh at us and it has. @AP  @ABC  @CBSNews  @SBN_Media  @TBN",
+                "user_location": "",
+                "created_at": "Mon Nov 19 23:19:00 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 650,
+                "text": "RT @marklutchman: I’m calling for President Trump to release the names of every Congressman that settled sexual harassment claims with taxp…",
+                "user_location": "United States",
+                "created_at": "Mon Nov 19 23:19:00 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 651,
+                "text": "RT @kylegriffin1: The official GOP account is now coming to Trump's defense and attacking Admiral McRaven, the man who led the Osama bin La…",
+                "user_location": "NWArkansas",
+                "created_at": "Mon Nov 19 23:19:00 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 652,
+                "text": "RT @krassenstein: 170 political science experts were asked to rank all 45 US Presidents from best to worst.\n\nTrump Ranked #45 of 45\nObama r…",
+                "user_location": "Eau Claire, WI",
+                "created_at": "Mon Nov 19 23:19:00 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "negative",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "negative"
+                }
+            },
+            {
+                "id": 653,
+                "text": "RT @ellievan65: Trump emphasizes  Saudi Arabia’s pledge to buy $110 billion worth of American weapons. \n\nBut defense analysts have calculat…",
+                "user_location": "MA and VA",
+                "created_at": "Mon Nov 19 23:19:00 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 654,
+                "text": "@pyryluminen Is it just me, or does anyone else just wanna go to Finland and drink beer with the locals for a while and make trump jokes? #BYOR",
+                "user_location": "",
+                "created_at": "Mon Nov 19 23:19:00 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "negative",
+                    "pattern_analyzer": "negative",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 655,
+                "text": "RT @JohnJHarwood: almost two years in, Trump has yet to fill nearly half the 702 top administration jobs requiring Senate confirmation, per…",
+                "user_location": "Philadelphia, PA",
+                "created_at": "Mon Nov 19 23:19:00 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "negative",
+                    "rnn_gloVe": "negative"
+                }
+            },
+            {
+                "id": 656,
+                "text": "RT @ImranKhanPTI: Trump’s false assertions add insult to the injury Pak has suffered in US WoT in terms of lives lost & destabilised & econ…",
+                "user_location": "",
+                "created_at": "Mon Nov 19 23:19:00 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "negative",
+                    "pattern_analyzer": "negative",
+                    "rnn_word2vec": "negative",
+                    "rnn_gloVe": "negative"
+                }
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "query": "putin",
+        "tweets": [
+            {
+                "id": 657,
+                "text": "RT @Reuters: From @ReutersOpinion: The Danske Bank money laundering scandal points to Putin's political problems https://t.co/SAUprzIGXg ht…",
+                "user_location": "Houston Texas, USA",
+                "created_at": "Tue Nov 20 01:24:08 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "negative",
+                    "rnn_gloVe": "negative"
+                }
+            },
+            {
+                "id": 658,
+                "text": "RT @Billbrowder: Putin is about to gain control of the world’s main law enforcement organization. ⁦@vkaramurza⁩ weighs in on the shocking I…",
+                "user_location": "",
+                "created_at": "Tue Nov 20 01:24:08 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "negative",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 659,
+                "text": "RT @HeWhoLovesWords: BOMBSHELL: On Jan 6, Clapper & Brennan briefed Trump, Pence, Priebus, Pompeo & Flynn on Russia's attack on the electio…",
+                "user_location": "North Carolina, USA",
+                "created_at": "Tue Nov 20 01:24:07 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 660,
+                "text": "RT @carolecadwalla: Rats. I've just learned that @ObserverUK can't legally publish this photo of @nigel_farage with the man known as \"Putin…",
+                "user_location": "Kinross",
+                "created_at": "Tue Nov 20 01:24:06 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 661,
+                "text": "RT @Billbrowder: Here’s my oped in the ⁦@washingtonpost⁩ on why it would be a disaster to let a Putin official run Interpol. It would total…",
+                "user_location": "Maine",
+                "created_at": "Tue Nov 20 01:24:06 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "negative",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 662,
+                "text": "@U2rakuKatie @billmcNichols54 @impinkestgirl @JudicialWatch @TomFitton Old news. I'm more interested in finding out what Putin has on the Gop.",
+                "user_location": "San Diego and Twentynine Palms",
+                "created_at": "Tue Nov 20 01:24:04 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 663,
+                "text": "RT @menqvist70: \"#Russia spends about US$2 bln per year on \"LPR/DPR\" – #Putin's ex-advisor\"\n\n#Donbas #Ukraine #Donbass\nhttps://t.co/RLZzF01…",
+                "user_location": "",
+                "created_at": "Tue Nov 20 01:24:03 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 664,
+                "text": "RT @jsolomonReports: Steele produced intel report suggesting Putin 'on the way out' ... before writing infamous dossier \nhttps://t.co/yoh8h…",
+                "user_location": "",
+                "created_at": "Tue Nov 20 01:23:59 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "negative",
+                    "pattern_analyzer": "negative",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 665,
+                "text": "@Billbrowder EU don't do Putin's bidding!",
+                "user_location": "",
+                "created_at": "Tue Nov 20 01:23:58 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "negative",
+                    "rnn_gloVe": "negative"
+                }
+            },
+            {
+                "id": 666,
+                "text": "RT @realDonaldTrump: From day one Rick Scott never wavered. He was a great Governor and will be even a greater Senator in representing the…",
+                "user_location": "Мосеруккин Россия",
+                "created_at": "Tue Nov 20 01:23:58 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "query": "kim jong un",
+        "tweets": [
+            {
+                "id": 687,
+                "text": "Add...\nFive months after Trump's summit with North Korean leader Kim Jong Un, experts say there is no sign of progress towards North Korea's denuclearization. \nhttps://t.co/qxqfU9FHxz",
+                "user_location": "San Antonio, Texas",
+                "created_at": "Tue Nov 20 01:26:07 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "negative",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "negative",
+                    "rnn_gloVe": "negative"
+                }
+            },
+            {
+                "id": 688,
+                "text": "INSIDER: Defector shot 5 times while escaping says 80% of younger North Koreans aren't loyal to Kim Jong Un.\nhttps://t.co/F3xhvRFb5k\n\nvia @GoogleNews",
+                "user_location": "United States",
+                "created_at": "Tue Nov 20 01:25:14 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 689,
+                "text": "Kim Jong Un to terminate nuclear weapons program when Donald Trump releases his tax returns.\n\nTime to build a bomb shelter.",
+                "user_location": "",
+                "created_at": "Tue Nov 20 01:22:28 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "negative",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "negative",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 690,
+                "text": "@realDonaldTrump I used to read the North Korean news to see what the fucked up leader was doing, now I just look to America to see a cunt in the whitehouse surpass Kim jong un, another fat twat with a bad haircut and small man syndrome #gettrumpout",
+                "user_location": "Brigg, North Lincolnshire",
+                "created_at": "Tue Nov 20 01:18:28 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "negative",
+                    "rnn_word2vec": "negative",
+                    "rnn_gloVe": "negative"
+                }
+            },
+            {
+                "id": 691,
+                "text": "RT @TheEconomist: No serious arms-control agreement is possible unless Kim Jong Un hands over a list of nuclear facilities, something he sh…",
+                "user_location": "Tulsa Oklahoma",
+                "created_at": "Tue Nov 20 01:17:27 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 692,
+                "text": "Kim Jong Un deny increased discussion on possible war - information from PBS https://t.co/fyAOJjt19E",
+                "user_location": "",
+                "created_at": "Tue Nov 20 01:17:18 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 693,
+                "text": "More hated in Nebraska: Kim Jong Un or Iowa?",
+                "user_location": "Omaha",
+                "created_at": "Tue Nov 20 01:16:59 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "negative",
+                    "rnn_word2vec": "negative",
+                    "rnn_gloVe": "negative"
+                }
+            },
+            {
+                "id": 694,
+                "text": "RT @MiniLaddd: Shoutout to LA for making me think the house next door was on fire and that bombs were going off. I thought Kim Jong Un let…",
+                "user_location": "New York",
+                "created_at": "Tue Nov 20 01:16:31 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "negative",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 695,
+                "text": "RT @MiniLaddd: Shoutout to LA for making me think the house next door was on fire and that bombs were going off. I thought Kim Jong Un let…",
+                "user_location": "Saskatchewan, Canada",
+                "created_at": "Tue Nov 20 01:15:40 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "negative",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 696,
+                "text": "Bullet proof. The limousine \"President Kennedy\" was killed in had no bullet proof anything.  Glass the pope complained B.B pellets shatterd!\nUSA does without?\n Kim Jong Un visits glass factory once suspected of producing military equipment, report says https://t.co/vtj7jtb9VP",
+                "user_location": "Not a good place at all. ",
+                "created_at": "Tue Nov 20 01:15:14 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "negative",
+                    "rnn_word2vec": "negative",
+                    "rnn_gloVe": "negative"
+                }
+            },
+            {
+                "id": 697,
+                "text": "Kim Jong Un Diaoyu islands are inviolable territory of China: China President Xi Jinping",
+                "user_location": "北京, 中华人民共和国",
+                "created_at": "Tue Nov 20 01:14:34 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "negative",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 698,
+                "text": "RT @nprpolitics: Five months after President Trump's summit with North Korean leader Kim Jong Un, experts say there is no sign of progress…",
+                "user_location": "",
+                "created_at": "Tue Nov 20 01:12:26 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "negative",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "negative",
+                    "rnn_gloVe": "negative"
+                }
+            },
+            {
+                "id": 699,
+                "text": "@realDonaldTrump but trump calls putin and Kim jong un good men! https://t.co/KkEvUBzPUx",
+                "user_location": "",
+                "created_at": "Tue Nov 20 01:11:26 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "negative",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "negative"
+                }
+            },
+            {
+                "id": 700,
+                "text": "Great meeting with KIM JONG UN went very smoothly and the dolant twins?",
+                "user_location": "",
+                "created_at": "Tue Nov 20 01:10:53 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 701,
+                "text": "RT @MiniLaddd: Shoutout to LA for making me think the house next door was on fire and that bombs were going off. I thought Kim Jong Un let…",
+                "user_location": "Inside a PC",
+                "created_at": "Tue Nov 20 01:10:00 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "negative",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 702,
+                "text": "@GOP @realDonaldTrump The Democrats will take Adm. McRaven. The GOP can have Kim Jong Un, Mohammed Bin Salman and Vladimir Putin.",
+                "user_location": "New Hampshire, USA",
+                "created_at": "Tue Nov 20 01:09:14 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 703,
+                "text": "@RachelNotley We spent the climax of the oil glut praying and lobbying Oil Republic’s across the Planet to fix while your government imposed carbon taxes and green subsidies. Then when the issue fixed, you claimed carbon tax was great. You are worse than Kim Jong Un!",
+                "user_location": "Alberta",
+                "created_at": "Tue Nov 20 01:08:38 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "negative"
+                }
+            },
+            {
+                "id": 704,
+                "text": "RT @jonshaffer: Check out my opinion piece in @statnews:\n\nDonald Trump and Kim Jong Un: authoritarian love in the time of TB\n\nhttps://t.co/…",
+                "user_location": "",
+                "created_at": "Tue Nov 20 01:05:20 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            },
+            {
+                "id": 705,
+                "text": "North Korea defector: My generation has no loyalty to Kim Jong Un https://t.co/1Ot78Mum9k",
+                "user_location": "Australia",
+                "created_at": "Tue Nov 20 01:02:51 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "neutral",
+                    "rnn_word2vec": "negative",
+                    "rnn_gloVe": "negative"
+                }
+            },
+            {
+                "id": 706,
+                "text": "RT @FiveRights: \"White House Correspondents\" is an awfully charitable phrase to describe people so addled by their TDS that they've sided w…",
+                "user_location": "British Columbia, Canada",
+                "created_at": "Tue Nov 20 01:01:52 +0000 2018",
+                "sentiment_prediction": {
+                    "naive_bayes": "positive",
+                    "pattern_analyzer": "positive",
+                    "rnn_word2vec": "positive",
+                    "rnn_gloVe": "positive"
+                }
+            }
+        ]
+    }
+]
