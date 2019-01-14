@@ -6,8 +6,14 @@
     </textarea>
     <br><br>
     <button nbButton outline status="info"
+      [disabled]="text === ''"
       (click)="getSentimentPrediction()">Find sentiment</button>
   </nb-card-body>
 </nb-card>
 
-{{text}}
+
+<nb-card>
+  <nb-card-body>
+    {{text}}
+  </nb-card-body>
+</nb-card>

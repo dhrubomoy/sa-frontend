@@ -3,12 +3,13 @@ import { Observable, of, throwError } from 'rxjs';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { catchError, tap, map } from 'rxjs/operators';
 import { SearchedTweet } from './types';
+import { SENTIMENT_ANALYSIS_API } from '../../../@core/constants';
 
 
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
 };
-const apiUrl = "http://127.0.0.1:8000/api/";
+const apiUrl = SENTIMENT_ANALYSIS_API;
 
 @Injectable()
 export class StandardSearchAPIService {

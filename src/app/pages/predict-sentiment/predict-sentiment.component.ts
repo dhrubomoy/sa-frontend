@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { PredictSentimentService } from './predict-sentiment.service';
 import { TextSentimentPrediction } from '../twitter-analysis/standard-search/types';
+import { SENTIMENT_ANALYSIS_MODELS } from '../../@core/constants';
 
 @Component({
   selector: 'predict-sentiment',
