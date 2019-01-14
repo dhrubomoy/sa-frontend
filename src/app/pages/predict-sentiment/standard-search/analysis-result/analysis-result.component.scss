@@ -1,0 +1,7 @@
+@import '../../../../@theme/styles/themes';
+
+@include nb-install-component() {
+  .result-tab {
+      padding-top: 12px;
+  }
+}

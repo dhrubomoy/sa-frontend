@@ -1,0 +1,6 @@
+<span class="tag tag-cyan" [ngClass]="{'tag-cyan': color == 'cyan'}">
+  <span>{{text}}</span>
+  <span class="close-icon" *ngIf="closable" (click)="onClose.emit(data)">
+    <i class="fas fa-times"></i>
+  </span>
+</span>

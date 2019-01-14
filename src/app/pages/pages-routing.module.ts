@@ -49,6 +49,9 @@ const routes: Routes = [{
     path: 'twitter-analysis',
     loadChildren: './twitter-analysis/twitter-analysis.module#TwitterAnalysisModule',
   }, {
+    path: 'predict-sentiment',
+    loadChildren: './predict-sentiment/predict-sentiment.module#PredictSentimentModule',
+  }, {
     path: '',
     redirectTo: 'dashboard',
     pathMatch: 'full',

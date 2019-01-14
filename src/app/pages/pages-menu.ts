@@ -6,6 +6,12 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
+    title: 'Predict Sentiment',
+    icon: 'nb-shuffle',
+    link: '/pages/predict-sentiment/predict-sentiment',
+    home: true,
+  },
+  {
     title: 'Twitter',
     icon: 'socicon-twitter',
     children: [
