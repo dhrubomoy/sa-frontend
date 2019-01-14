@@ -1,1 +1,13 @@
-<h1>Hello</h1>
+<nb-card>
+  <nb-card-body>
+    <textarea rows="3" nbInput fullWidth 
+      shape="round"  placeholder="Type here..."
+      [(ngModel)]="text">
+    </textarea>
+    <br><br>
+    <button nbButton outline status="info"
+      (click)="getSentimentPrediction()">Find sentiment</button>
+  </nb-card-body>
+</nb-card>
+
+{{text}}

@@ -28,7 +28,6 @@ export class StandardSearchComponent implements OnInit {
     this.standardSearchAPIService.addSearchedTweet(st).subscribe(s => {
       this.searchedTweets.push(s);
       this.selectSearchedTweet(s.id);
-      console.log(s);
     });
   }
 

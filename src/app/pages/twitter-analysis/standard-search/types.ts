@@ -18,3 +18,8 @@ export class SearchedTweet {
     query: string;
     tweets?: Tweet[];
 }
+
+export class TextSentimentPrediction {
+    text: string;
+    sentiment_prediction?: SentimentPrediction;
+}
