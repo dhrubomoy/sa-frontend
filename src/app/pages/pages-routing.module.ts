@@ -4,14 +4,17 @@ import { NgModule } from '@angular/core';
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
+import { PredictSentimentComponent } from './predict-sentiment/predict-sentiment.component'
 
 const routes: Routes = [{
   path: '',
   component: PagesComponent,
   children: [{
     path: 'dashboard',
-    // component: ECommerceComponent,
-    component: NotFoundComponent
+    component: PredictSentimentComponent
+  }, {
+    path: 'predict-sentiment',
+    component: PredictSentimentComponent,
   }, {
     path: 'iot-dashboard',
     component: DashboardComponent,
@@ -48,9 +51,6 @@ const routes: Routes = [{
   }, {
     path: 'twitter-analysis',
     loadChildren: './twitter-analysis/twitter-analysis.module#TwitterAnalysisModule',
-  }, {
-    path: 'predict-sentiment',
-    loadChildren: './predict-sentiment/predict-sentiment.module#PredictSentimentModule',
   }, {
     path: '',
     redirectTo: 'dashboard',

@@ -7,6 +7,8 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { ThemeModule } from '../@theme/theme.module';
 import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
 
+import { PredictSentimentModule } from './predict-sentiment/predict-sentiment.module'
+
 const PAGES_COMPONENTS = [
   PagesComponent,
 ];
@@ -18,6 +20,8 @@ const PAGES_COMPONENTS = [
     DashboardModule,
     ECommerceModule,
     MiscellaneousModule,
+
+    PredictSentimentModule
   ],
   declarations: [
     ...PAGES_COMPONENTS,

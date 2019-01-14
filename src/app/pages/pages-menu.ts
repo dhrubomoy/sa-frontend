@@ -8,7 +8,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Predict Sentiment',
     icon: 'nb-shuffle',
-    link: '/pages/predict-sentiment/predict-sentiment',
+    link: '/pages/predict-sentiment',
     home: true,
   },
   {

@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngx-charts',
-  template: `
-    <router-outlet></router-outlet>
-  `,
+  selector: 'predict-sentiment',
+  templateUrl: './predict-sentiment.component.html',
 })
-export class PredictSentimentComponent {}
+export class PredictSentimentComponent {
+}
