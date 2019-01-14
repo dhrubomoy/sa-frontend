@@ -5,6 +5,11 @@ export class SentimentPrediction {
     rnn_gloVe: string;
 }
 
+export class SentimentPredictionAlg {
+    algName: String;
+    sentiment: String;
+}
+
 export class Tweet {
     id: number;
     text: string;

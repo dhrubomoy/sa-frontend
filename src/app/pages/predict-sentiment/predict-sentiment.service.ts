@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable, of, throwError } from 'rxjs';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { catchError, tap, map } from 'rxjs/operators';
-import { TextSentimentPrediction } from '../twitter-analysis/standard-search/types';
+import { TextSentimentPrediction, SentimentPrediction } from '../twitter-analysis/standard-search/types';
 import { SENTIMENT_ANALYSIS_API } from '../../@core/constants'
 
 
@@ -23,11 +23,11 @@ export class PredictSentimentService {
     };
   }
 
-  getSentimentPrediction(tsp: TextSentimentPrediction): Observable<TextSentimentPrediction> {
+  getSentimentPrediction(tsp: TextSentimentPrediction): Observable<SentimentPrediction> {
     const url = apiUrl + 'predict_sentiment/';
-    return this.http.post<TextSentimentPrediction>(url, tsp, httpOptions).pipe(
-      tap((text: TextSentimentPrediction) => console.log("request made")),
-      catchError(this.handleError<TextSentimentPrediction>('getSentimentPrediction()'))
+    return this.http.post<SentimentPrediction>(url, tsp, httpOptions).pipe(
+      tap((text: SentimentPrediction) => console.log("request made")),
+      catchError(this.handleError<SentimentPrediction>('getSentimentPrediction()'))
     );
   }
 

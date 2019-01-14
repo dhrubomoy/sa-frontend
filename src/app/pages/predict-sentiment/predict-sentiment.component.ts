@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { PredictSentimentService } from './predict-sentiment.service';
-import { TextSentimentPrediction } from '../twitter-analysis/standard-search/types';
+import { TextSentimentPrediction, SentimentPredictionAlg, SentimentPrediction } from '../twitter-analysis/standard-search/types';
 import { SENTIMENT_ANALYSIS_MODELS } from '../../@core/constants';
 
 @Component({
@@ -9,13 +9,18 @@ import { SENTIMENT_ANALYSIS_MODELS } from '../../@core/constants';
 })
 export class PredictSentimentComponent {
   text: string = '';
+  predictions: SentimentPredictionAlg[] = [];
 
   constructor(private predictSentimentService: PredictSentimentService) {}
+
+  setPredictions(s: SentimentPrediction) {
+    console.log(s);
+  }
 
   getSentimentPrediction() {
     let tsp: TextSentimentPrediction = { text: this.text };
     this.predictSentimentService.getSentimentPrediction(tsp).subscribe(s => {
-      console.log(s);
+      this.setPredictions(s);
     });
   }
 
