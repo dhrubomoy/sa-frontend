@@ -12,8 +12,18 @@
 </nb-card>
 
 
-<nb-card>
+<nb-card *ngIf="predictions.length>0">
   <nb-card-body>
-    {{text}}
+    <h3>Prediction</h3>
+    <table>
+      <tr>
+        <th>Machine Learning Model</th>
+        <th>Sentiment</th>
+      </tr>
+      <tr *ngFor="let prediction of predictions">
+        <td>{{prediction.modelName}}</td>
+        <td>{{prediction.sentiment}}</td>
+      </tr>
+    </table>
   </nb-card-body>
 </nb-card>

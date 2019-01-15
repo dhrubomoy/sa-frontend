@@ -1,0 +1,16 @@
+@import '../../@theme/styles/themes';
+
+@include nb-install-component() { 
+    table {
+        border-collapse: collapse;
+    }
+    
+    table, td, th {
+        border: 1px solid;
+        padding: 7px 50px;
+    }
+
+    th {
+        font-size: 16px;
+    }
+}

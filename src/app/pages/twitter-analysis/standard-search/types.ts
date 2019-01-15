@@ -5,8 +5,8 @@ export class SentimentPrediction {
     rnn_gloVe: string;
 }
 
-export class SentimentPredictionAlg {
-    algName: String;
+export class SentimentPredictionModel {
+    modelName: String;
     sentiment: String;
 }
 
