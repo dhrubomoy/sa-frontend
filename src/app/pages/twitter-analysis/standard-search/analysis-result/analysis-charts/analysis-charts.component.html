@@ -1,6 +1,19 @@
 <nb-card>
   <nb-card-header>Pie Chart</nb-card-header>
   <nb-card-body>
-    <div echarts [options]="pieChartOptions" class="echart"></div>
+    <twitter-analysis-pie-chart 
+      [tweetData]= "tweetData" 
+      [sentimentAnalysisModel]="sentimentAnalysisModel"
+    ></twitter-analysis-pie-chart>
+  </nb-card-body>
+</nb-card>
+
+<nb-card>
+  <nb-card-header>Line Chart</nb-card-header>
+  <nb-card-body>
+    <twitter-analysis-line-chart 
+      [tweetData]= "tweetData" 
+      [sentimentAnalysisModel]="sentimentAnalysisModel"
+    ></twitter-analysis-line-chart>
   </nb-card-body>
 </nb-card>
