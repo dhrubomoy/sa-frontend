@@ -18,6 +18,10 @@ export class Tweet {
     sentiment_prediction: SentimentPrediction;
 }
 
+export class TansformedTweet extends Tweet {
+    created_at_timestamp?: number;
+}
+
 export class SearchedTweet {
     id?: number;
     query: string;

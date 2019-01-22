@@ -20,8 +20,7 @@ export class AnalysisLineChartComponent implements OnChanges {
   constructor(private lineChartService: AnalysisLineChartService) {}
 
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
-    let res = this.lineChartService.getLineChartDataAndOptions();
-    console.log(this.sentimentAnalysisModel);
+    let res = this.lineChartService.getLineChartDataAndOptions(this.tweetData, this.sentimentAnalysisModel);
     this.data = res.data;
     this.options = res.option;
   }
