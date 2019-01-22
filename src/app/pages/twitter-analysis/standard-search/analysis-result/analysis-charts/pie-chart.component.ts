@@ -11,7 +11,7 @@ import { Tweet } from '../../types'
 export class AnalysisPieChartComponent implements OnChanges {
 
   @Input() tweetData: Tweet[];
-  @Input() sentimentAnalysisModel: any;
+  @Input() sentimentAnalysisModel: string;
 
   options: any;
 

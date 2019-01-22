@@ -9,6 +9,6 @@ import { Tweet } from '../../types'
 export class AnalysisChartsComponent  {
 
   @Input() tweetData: Tweet[];
-  @Input() sentimentAnalysisModel;
+  @Input() sentimentAnalysisModel: string;
 
 }

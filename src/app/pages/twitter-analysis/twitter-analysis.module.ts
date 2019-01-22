@@ -7,7 +7,8 @@ import { TagComponent } from './tag/tag.component';
 import { AnalysisResultComponent } from './standard-search/analysis-result/analysis-result.component'
 import { AnalysisChartsComponent } from './standard-search/analysis-result/analysis-charts/analysis-charts.component'
 import { AnalysisPieChartComponent } from './standard-search/analysis-result/analysis-charts/pie-chart.component'
-import { AnalysisLineChartComponent } from './standard-search/analysis-result/analysis-charts/line-chart.component'
+import { AnalysisLineChartComponent } from './standard-search/analysis-result/analysis-charts/line-chart/line-chart.component'
+import { AnalysisLineChartService } from './standard-search/analysis-result/analysis-charts/line-chart/line-chart.service'
 import { TwitterAnalysisRoutingModule, routedComponents } from './twitter-analysis-routing.module';
 import { StandardSearchAPIService } from './standard-search/standard-search-api.service'
 
@@ -24,6 +25,7 @@ const components = [
   declarations: [...routedComponents, ...components],
   providers: [
     StandardSearchAPIService,
+    AnalysisLineChartService,
   ],
 })
 export class TwitterAnalysisModule {}
