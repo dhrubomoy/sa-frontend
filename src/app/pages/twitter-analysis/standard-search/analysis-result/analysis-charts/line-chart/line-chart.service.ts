@@ -61,13 +61,18 @@ export class AnalysisLineChartService implements OnDestroy {
     }
   }
 
-  private getDatasets(transformedTweetData: TansformedTweet[], sentimentAnalysisModel: string, timestampLabels: number[]) {
-    let datasets = [];
-    let uniqueSentiments: string[] = transformedTweetData.map(tweet => {
+  private getUniqueSentiments(transformedTweetData: TansformedTweet[], sentimentAnalysisModel: string)
+  : string[] {
+    return transformedTweetData.map(tweet => {
       return tweet.sentiment_prediction[sentimentAnalysisModel];
     }).filter((s, i, ar) => {
       return ar.indexOf(s) === i;
     }).sort();
+  }
+
+  private getDatasets(transformedTweetData: TansformedTweet[], sentimentAnalysisModel: string, timestampLabels: number[]) {
+    let datasets = [];
+    let uniqueSentiments = this.getUniqueSentiments(transformedTweetData, sentimentAnalysisModel);
 
     for(let k=0; k<uniqueSentiments.length; k++) {
       let tweetDataPtr = 0, sentimentCounter = 0, data = [];
@@ -84,8 +89,6 @@ export class AnalysisLineChartService implements OnDestroy {
         let percentage = (sentimentCounter/tweetDataPtr)*100;
         data.push(parseFloat(percentage.toFixed(2)));
       }
-      console.log(transformedTweetData);
-      console.log(data);
       let color = this.getHexColor(uniqueSentiments[k]);
       datasets.push({
           data: data,
@@ -100,7 +103,6 @@ export class AnalysisLineChartService implements OnDestroy {
   getLineChartDataAndOptions(tweetData: Tweet[], sentimentAnalysisModel: string) {
     let result: any = {};
     this.themeSubscription = this.theme.getJsTheme().subscribe(config => {
-      const colors: any = config.variables;
       const chartjs: any = config.variables.chartjs;
       let transformedTweetData: TansformedTweet[] = this.transformTweetData(tweetData),
         timestampLabels = this.getTimestampsForLabels(transformedTweetData);

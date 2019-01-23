@@ -6,15 +6,17 @@
             <div class="col-lg-10">
               <input [(ngModel)]="searchedTweetQuery"
                 type="text" nbInput fullWidth 
-                shape="round" status="info" 
+                shape="round" status="info"
                 placeholder="Search here">
             </div>
             <div class="col-lg-2">
               <button nbButton shape="rectangle" 
                 shape="round" status="primary"
+                [disabled]="searchedTweetQuery.length===0"
                 (click)="addSearchedTweet()"
-              >
-                Analyze
+                [nbSpinner]="loading" nbSpinnerStatus="success" 
+                nbSpinnerSize="large" nbSpinnerMessage="">
+                  Analyze
               </button>
             </div>
           </div>

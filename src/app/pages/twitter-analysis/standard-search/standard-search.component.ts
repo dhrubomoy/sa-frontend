@@ -13,6 +13,7 @@ export class StandardSearchComponent implements OnInit {
   selectedSearchedTweetId: number;
   selectedTweetData: Tweet[] = [];
   searchedTweetQuery: string = '';
+  loading: boolean = false;
 
   constructor(private standardSearchAPIService: StandardSearchAPIService) {}
 
@@ -24,10 +25,12 @@ export class StandardSearchComponent implements OnInit {
   }
 
   addSearchedTweet() {
+    this.loading = true;
     let st: SearchedTweet = { query: this.searchedTweetQuery };
     this.standardSearchAPIService.addSearchedTweet(st).subscribe(s => {
       this.searchedTweets.push(s);
       this.selectSearchedTweet(s.id);
+      this.loading = false;
     });
   }
 
