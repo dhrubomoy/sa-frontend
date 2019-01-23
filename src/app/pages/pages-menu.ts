@@ -12,13 +12,8 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
-    title: 'Twitter',
+    title: 'Twitter Search',
     icon: 'socicon-twitter',
-    children: [
-      {
-        title: 'Standard Search',
-        link: '/pages/twitter-analysis/standard-search',
-      },
-    ],
+    link: '/pages/twitter-analysis/standard-search',
   },
 ];
