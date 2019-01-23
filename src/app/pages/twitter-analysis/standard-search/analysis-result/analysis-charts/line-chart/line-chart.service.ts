@@ -24,7 +24,7 @@ export class AnalysisLineChartService implements OnDestroy {
   private getDateTimeLabel(timestamps: number[]) {
     return timestamps.map(function(t) {
       let d = new Date(t);
-      return d.getFullYear() + '-' + d.getMonth() + '-' + d.getDate() +
+      return d.getFullYear() + '-' + d.getMonth()+1 + '-' + d.getDate() +
         ' ' + d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds();
     });
   }
