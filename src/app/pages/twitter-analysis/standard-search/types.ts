@@ -15,6 +15,7 @@ export class Tweet {
     text: string;
     user_location: string;
     created_at: string;
+    source: string;
     sentiment_prediction: SentimentPrediction;
 }
 
