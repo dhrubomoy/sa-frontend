@@ -1,6 +1,7 @@
 import { Injectable, OnDestroy } from '@angular/core';
 import { NbThemeService, NbColorHelper } from '@nebular/theme';
 import { Tweet, TansformedTweet } from '../../../types';
+import { ChartUtil } from '../chart-util'
 
 @Injectable()
 export class AnalysisBarChartService implements OnDestroy {
@@ -8,20 +9,6 @@ export class AnalysisBarChartService implements OnDestroy {
   themeSubscription: any;
 
   constructor(private theme: NbThemeService) {}
-
-  // private getHexColor(sentiment: string) {
-  //   let color = {
-  //    'positive': '#40ff00',
-  //    'negative': '#ff4000',
-  //    'neutral': '#00bfff'
-  //   }
-  //   if(Object.keys(color).includes(sentiment)) {
-  //     return color[sentiment];
-  //   } else {
-  //     let otherColors = ['#e6194b', '#3cb44b', '#ffe119', '#4363d8', '#f58231', '#911eb4', '#46f0f0', '#f032e6', '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', '#000075', '#808080', '#ffffff', '#000000']
-  //     return otherColors[Math.floor(Math.random() * otherColors.length)];
-  //   }
-  // }
 
   private getUniqueSentiments(tweetData: TansformedTweet[], sentimentAnalysisModel: string)
   : string[] {
@@ -55,7 +42,7 @@ export class AnalysisBarChartService implements OnDestroy {
       datasets.push({
         data: data,
         label: sentiment,
-        backgroundColor: '#40ff00',
+        backgroundColor: NbColorHelper.hexToRgbA(ChartUtil.getHexColor(sentiment), 0.8),
       })
     });
     console.log(datasets);
@@ -65,21 +52,11 @@ export class AnalysisBarChartService implements OnDestroy {
   getLineChartDataAndOptions(tweetData: Tweet[], sentimentAnalysisModel: string) {
     let result: any = {};
     this.themeSubscription = this.theme.getJsTheme().subscribe(config => {
-      const colors: any = config.variables;
       const chartjs: any = config.variables.chartjs;
       let devices = this.getDevices(tweetData);
       result.data = {
         labels: devices,
         datasets: this.getDatasets(tweetData, sentimentAnalysisModel, devices),
-        // [{
-        //   data: [65, 59, 80, 81, 56, 55, 40],
-        //   label: 'Series A',
-        //   backgroundColor: NbColorHelper.hexToRgbA(colors.primaryLight, 0.8),
-        // }, {
-        //   data: [28, 48, 40, 19, 86, 27, 90],
-        //   label: 'Series B',
-        //   backgroundColor: NbColorHelper.hexToRgbA(colors.infoLight, 0.8),
-        // }],
       };
       result.options = {
         maintainAspectRatio: false,
